@@ -24,7 +24,7 @@ const Customizer = () => {
     stylishShirt: false,
   })
 
-  // show tab content depending on the activeTab
+  // Show the active tab's content.
   const generateTabContent = () => {
     switch (activeEditorTab) {
       case "colorpicker":
@@ -98,7 +98,7 @@ const Customizer = () => {
         break;
     }
 
-    // after setting the state, activeFilterTab is updated
+    // After setting the state, activeFilterTab is updated.
 
     setActiveFilterTab((prevState) => {
       return {

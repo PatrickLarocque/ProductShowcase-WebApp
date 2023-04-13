@@ -37,7 +37,7 @@ const Home = () => {
             >
               <p className="max-w-md font-normal text-gray-600 text-base">
               Create your own exclusive t-shirt using our brand-new 3D customization tool. Ask DALL-E to generate a unique logo or pattern. 
-              <br className="xl:block hidden" /><br className="xl:block hidden" /><strong>Unleash your imagination</strong>{" "} and define your own style.
+              <br className="xl:block" /><br className="xl:block" /><strong>Unleash your imagination</strong>{" "} and define your own style.
               </p>
 
               <CustomButton 
